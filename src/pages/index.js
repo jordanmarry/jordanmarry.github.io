@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Intro from "../components/Intro";
-// import About from "../components/About";
+import About from "../components/About";
 // import Experience from '../components/Experience';
 // import Project from '../components/Project';
 // import Footer from '../components/Footer';
@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Intro />
-      {/* <About />
-      <Experience />
+      <About />
+      {/* <Experience />
       <Project />
       <Footer /> */}
     </div>
