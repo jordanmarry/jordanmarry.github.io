@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ccd6f6;
+    padding-bottom: 2.5rem;
+}
+
+body {
+    background-color: #293241;
+    font-family: 'NTR', sans-serif;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    body {
+      padding-left: 10rem;
+      padding-top: 3rem;
+    }
+}
+  
+@media (min-width: 1024px) {
+    body {
+        padding-left: 15rem;
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        padding-left: 20rem;
+        padding-top: 5rem;
+    }
+}
