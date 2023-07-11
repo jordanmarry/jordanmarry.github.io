@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import Intro from "../components/Intro";
 import About from "../components/About";
-// import Experience from '../components/Experience';
-// import Project from '../components/Project';
-// import Footer from '../components/Footer';
+import Experience from '../components/Experience';
+import Project from '../components/Project';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -15,9 +15,9 @@ export default function Home() {
       </Head>
       <Intro />
       <About />
-      {/* <Experience />
+      <Experience />
       <Project />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
